@@ -107,11 +107,9 @@ class Dataset:
             self.omop_key['SRC_CD_DESCRIPTION'] = self.omop_key['SRC_CD_DESCRIPTION'].fillna('')
         else:
             self.omop_key = None
-        self.patients_df = None
+        self.patients_df = load_patients(self.root_path)
 
     def patients(self):
-        if self.patients_df is None:
-            self.patients_df = load_patients(self.root_path)
         return(self.patients_df.copy())
 
     def conditions(self, mapping = {'Glaucoma': 437541}):
