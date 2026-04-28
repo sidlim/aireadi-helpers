@@ -18,6 +18,6 @@ survey_code_map = {
 }
 
 # And now this should add a new column to data titled "Edu_Level_123" that includes the participants' answers to that dietary survey question:
-data = helpers.surveys(data, survey_code_map)
+data = helpers.surveys(survey_code_map)
 
 ```
