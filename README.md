@@ -1,3 +1,9 @@
+# About:
+This is a helper library for the AI-READI dataset, making some dataset access and interpretation more convenient. It probably deserves a full rewrite (spaghetti code), but I am planning on leaving it be because it gets the job done.
+
+# Disclosures:
+I'm a current AI-READI intern and trainee under grant OT20D032644
+
 # Example of use:
 ```
 import os
