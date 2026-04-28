@@ -17,7 +17,7 @@ survey_code_map = {
     # TARGET_CONCEPT_ID from the entry for the question (not the answer choice)
 }
 
-# And now this should add a new column to data titled "Edu_Level_123" that includes the participants' answers to that dietary survey question:
+# And now this should add a new column to data titled "Edu_Level_123" that includes the participants' answers to that survey question:
 data = helpers.surveys(survey_code_map)
 
 ```
